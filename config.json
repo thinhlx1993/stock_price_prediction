@@ -1,6 +1,6 @@
 {
 	"data": {
-		"filename": "sp500.csv",
+		"filename": "XAUUSD15.csv",
 		"columns": [
 			"Close",
 			"Volume"
