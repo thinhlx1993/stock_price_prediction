@@ -2,6 +2,7 @@ import math
 import numpy as np
 import pandas as pd
 
+
 class DataLoader():
     """A class for loading and transforming data for the lstm model"""
 

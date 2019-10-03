@@ -87,7 +87,11 @@ class Model():
 		timer.stop()
 
 	def predict_point_by_point(self, data):
-		#Predict each timestep given the last sequence of true data, in effect only predicting 1 step ahead each time
+		"""
+		Predict each timestep given the last sequence of true data, in effect only predicting 1 step ahead each time
+		:param data:
+		:return:
+		"""
 		print('[Model] Predicting Point-by-Point...')
 		predicted = self.model.predict(data)
 		predicted = np.reshape(predicted, (predicted.size,))
